@@ -1,0 +1,447 @@
+[37;1m- class Object[0;37m (4 bytes)[0;37;1m
+  |
+  +- struct Value[0;37m (0 bytes)[0;37;1m
+  |  |
+  |  +- function Proc(T)
+  |  |  |
+  |  |  +- function (Int32 -> Nil)
+  |  |  |
+  |  |  +- function (Fiber -> (IO::FileDescriptor | Void))
+  |  |  |
+  |  |  +- function (Pointer(Void), Pointer(Void) -> Nil)
+  |  |  |
+  |  |  +- function (Pointer(Void), Pointer(Void) -> Int32?)
+  |  |  |
+  |  |  +- function ( -> Nil)
+  |  |  |
+  |  |  +- function (Hash(Signal, (Signal -> Void)), Signal -> (Signal -> Void))
+  |  |  |
+  |  |  +- function (Signal -> Void)
+  |  |  |
+  |  |  +- function (Hash(Int32, Channel::Buffered(Process::Status?)), Int32 -> Channel::Buffered(Process::Status?))
+  |  |  |
+  |  |  +- function (Hash(Int32, Process::Status), Int32 -> Process::Status)
+  |  |  |
+  |  |  +- function (Hash({UInt64, Symbol}, Bool), {UInt64, Symbol} -> Bool)
+  |  |  |
+  |  |  +- function (Hash(String, String), String -> String)
+  |  |  |
+  |  |  +- function (Hash(String, String?), String -> String?)
+  |  |  |
+  |  |  +- function (Hash(String, Nil), String -> Nil)
+  |  |  |
+  |  |  +- function (Int32 -> Void)
+  |  |  |
+  |  |  +- function (Int32, Pointer(LibC::Addrinfo), Pointer(Void) -> Void)
+  |  |  |
+  |  |  +- function (Int32, LibEvent2::EventFlags, Pointer(Void) -> Void)
+  |  |  |
+  |  |  +- function (Int32, Pointer(UInt8) -> Nil)
+  |  |  |
+  |  |  +- function (UInt64 -> Pointer(Void))
+  |  |  |
+  |  |  +- function ( -> Void)
+  |  |  |
+  |  |  +- function (Pointer(Void), Pointer(Void) -> Void)
+  |  |  |
+  |  |  +- function (Pointer(Void) -> Void)
+  |  |  |
+  |  |  +- function (Pointer(Void), Pointer(Void) -> LibUnwind::ReasonCode)
+  |  |
+  |  +- struct Struct[0;37m (0 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct Event::Base[0;37m (8 bytes)[0;37;1m
+  |  |  |      [0;1m@base : LibEvent2::EventBase[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct Event::Event[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@event : LibEvent2::Event[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |      [0;1m@freed : Bool            [0;37m (0 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::Linger[0;37m (8 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::HostEnt[0;37m (32 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::SockAddr[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::SockAddrUn[0;37m (110 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::SockAddrIn6[0;37m (28 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::SockAddrIn[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::Addrinfo[0;37m (48 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LEBReader[0;37m (8 bytes)[0;37;1m
+  |  |  |      [0;1m@data : Pointer(UInt8)[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::TimeZone[0;37m (8 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::DirEntry[0;37m (280 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::Stat[0;37m (144 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::Tms[0;37m (32 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibTermios::Struct[0;37m (40 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct Iconv[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@iconv        : LibIconv::Iconv[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |      [0;1m@skip_invalid : Bool           [0;37m (0 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct Range(B, E)
+  |  |  |  |
+  |  |  |  +- generic struct Range(Int32, Int32)[0;37m (12 bytes)[0;37;1m
+  |  |  |         [0;1m@begin     : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |         [0;1m@end       : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |         [0;1m@exclusive : Bool [0;37m (0 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct Slice(T)
+  |  |  |  |
+  |  |  |  +- generic struct Slice(UInt8)[0;37m (16 bytes)[0;37;1m
+  |  |  |         [0;1m@size    : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |         [0;1m@pointer : Pointer(UInt8)[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct CallStack[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@callstack : Array(Pointer(Void))[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |      [0;1m@backtrace : Array(String)?      [0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct CallStack::RepeatedFrame[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@ip    : Pointer(Void)[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |      [0;1m@count : Int32        [0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- struct LibDL::Info[0;37m (32 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibUnwind::Exception[0;37m (48 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::TimeVal[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- struct LibC::TimeSpec[0;37m (16 bytes)[0;37;1m
+  |  |
+  |  +- generic struct StaticArray(T, N)
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt32, 4)[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 65)[0;37m (65 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 1024)[0;37m (1024 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt32, 624)[0;37m (2496 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(Int32, 32)[0;37m (128 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 24)[0;37m (24 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 14)[0;37m (14 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 108)[0;37m (108 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 16)[0;37m (16 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 256)[0;37m (256 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(Int32, 2)[0;37m (8 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(Int64, 6)[0;37m (48 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : Int64[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(UInt8, 4)[0;37m (4 bytes)[0;37;1m
+  |  |  |      [0;1m@buffer : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+  |  |  |
+  |  |  +- generic struct StaticArray(Int64, 5)[0;37m (40 bytes)[0;37;1m
+  |  |         [0;1m@buffer : Int64[0;37m (8 bytes)[0;1m[0;37;1m
+  |  |
+  |  +- tuple Tuple(T)
+  |  |  |
+  |  |  +- tuple {Int32, Int32}[0;37m (8 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {IO::FileDescriptor, IO::FileDescriptor}[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {Signal, (Signal -> Void)}[0;37m (24 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {Pointer(Void), Pointer(Void)}[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {Int64, Pointer(UInt8)}[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {UInt64, Int32}[0;37m (16 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {Int32, Int32, Int32}[0;37m (12 bytes)[0;37;1m
+  |  |  |
+  |  |  +- tuple {UInt64, Symbol}[0;37m (16 bytes)[0;37;1m
+  |  |
+  |  +- generic struct Pointer(T)
+  |  |  |
+  |  |  +- struct Pointer(CallStack::RepeatedFrame)
+  |  |  |
+  |  |  +- struct Pointer({Pointer(Void), Pointer(Void)})
+  |  |  |
+  |  |  +- struct Pointer((Fiber -> (IO::FileDescriptor | Void)))
+  |  |  |
+  |  |  +- struct Pointer({Int32, Int32, Int32})
+  |  |  |
+  |  |  +- struct Pointer(( -> Nil))
+  |  |  |
+  |  |  +- struct Pointer((Int32 -> Void))
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(Signal, (Signal -> Void))?)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(Int32, Channel::Buffered(Process::Status?))?)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(Int32, Process::Status)?)
+  |  |  |
+  |  |  +- struct Pointer(Fiber)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry({UInt64, Symbol}, Bool)?)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(String, String)?)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(String, String?)?)
+  |  |  |
+  |  |  +- struct Pointer(Hash::Entry(String, Nil)?)
+  |  |  |
+  |  |  +- struct Pointer(String)
+  |  |  |
+  |  |  +- struct Pointer(Redis::RedisValue)
+  |  |  |
+  |  |  +- struct Pointer(LibC::HostEnt)
+  |  |  |
+  |  |  +- struct Pointer(UInt32)
+  |  |  |
+  |  |  +- struct Pointer(Pointer(LibC::Addrinfo))
+  |  |  |
+  |  |  +- struct Pointer(LibC::Addrinfo)
+  |  |  |
+  |  |  +- struct Pointer(LibC::SockAddr)
+  |  |  |
+  |  |  +- struct Pointer(LibC::TimeZone)
+  |  |  |
+  |  |  +- struct Pointer(LibC::DirEntry)
+  |  |  |
+  |  |  +- struct Pointer(LibC::Dir)
+  |  |  |
+  |  |  +- struct Pointer(LibC::Stat)
+  |  |  |
+  |  |  +- struct Pointer(LibC::Tms)
+  |  |  |
+  |  |  +- struct Pointer(LibTermios::Struct)
+  |  |  |
+  |  |  +- struct Pointer(Char)
+  |  |  |
+  |  |  +- struct Pointer(LibC::TimeVal)
+  |  |  |
+  |  |  +- struct Pointer(StaticArray(Int32, 2))
+  |  |  |
+  |  |  +- struct Pointer(Int32)
+  |  |  |
+  |  |  +- struct Pointer(Pointer(UInt8))
+  |  |  |
+  |  |  +- struct Pointer(UInt64)
+  |  |  |
+  |  |  +- struct Pointer(LibGC::Finalizer)
+  |  |  |
+  |  |  +- struct Pointer(LibPThread::Cond)
+  |  |  |
+  |  |  +- struct Pointer(LibPThread::MutexAttr)
+  |  |  |
+  |  |  +- struct Pointer(LibPThread::Mutex)
+  |  |  |
+  |  |  +- struct Pointer(Pointer(Void))
+  |  |  |
+  |  |  +- struct Pointer(LibPThread::Thread)
+  |  |  |
+  |  |  +- struct Pointer(LibDL::Info)
+  |  |  |
+  |  |  +- struct Pointer(UInt8)
+  |  |  |
+  |  |  +- struct Pointer(LibUnwind::Exception)
+  |  |  |
+  |  |  +- struct Pointer(Void)
+  |  |
+  |  +- struct Number[0;37m (0 bytes)[0;37;1m
+  |     |
+  |     +- struct Float[0;37m (0 bytes)[0;37;1m
+  |     |
+  |     +- struct Int[0;37m (0 bytes)[0;37;1m
+  |
+  +- class Reference[0;37m (4 bytes)[0;37;1m
+     |
+     +- class Event::SignalHandler[0;37m (32 bytes)[0;37;1m
+     |      [0;1m@callbacks  : Hash(Signal, (Signal -> Void))[0;37m (8 bytes)[0;1m[0;37;1m
+     |      [0;1m@read_pipe  : IO::FileDescriptor+           [0;37m (8 bytes)[0;1m[0;37;1m
+     |      [0;1m@write_pipe : IO::FileDescriptor+           [0;37m (8 bytes)[0;1m[0;37;1m
+     |
+     +- class Event::SignalChildHandler[0;37m (24 bytes)[0;37;1m
+     |      [0;1m@pending : Hash(Int32, Process::Status)                    [0;37m (8 bytes)[0;1m[0;37;1m
+     |      [0;1m@waiting : Hash(Int32, Channel::Buffered(Process::Status?))[0;37m (8 bytes)[0;1m[0;37;1m
+     |
+     +- generic class Channel(T)
+     |  |
+     |  +- generic class Channel::Buffered(T)
+     |
+     +- class Channel::ClosedError[0;37m (40 bytes)[0;37;1m
+     |
+     +- class Fiber[0;37m (88 bytes)[0;37;1m
+     |      [0;1m@stack        : Pointer(Void)[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@resume_event : Event::Event?[0;37m (24 bytes)[0;1m[0;37;1m
+     |      [0;1m@proc         : ( -> Void)   [0;37m (16 bytes)[0;1m[0;37;1m
+     |      [0;1m@stack_top    : Pointer(Void)[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@stack_bottom : Pointer(Void)[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@next_fiber   : Fiber?       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@prev_fiber   : Fiber?       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |
+     +- class Random::MT19937[0;37m (2504 bytes)[0;37;1m
+     |      [0;1m@mt  : StaticArray(UInt32, 624)[0;37m (2496 bytes)[0;1m[0;37;1m
+     |      [0;1m@mti : Int32                   [0;37m (   4 bytes)[0;1m[0;37;1m
+     |
+     +- class Process::Status[0;37m (8 bytes)[0;37;1m
+     |      [0;1m@exit_status : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+     |
+     +- generic class Deque(T)
+     |  |
+     |  +- generic class Deque(Fiber)[0;37m (24 bytes)[0;37;1m
+     |         [0;1m@start    : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@size     : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@capacity : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@buffer   : Pointer(Fiber)[0;37m (8 bytes)[0;1m[0;37;1m
+     |
+     +- generic class Hash(K, V)
+     |  |
+     |  +- generic class Hash(Signal, (Signal -> Void))[0;37m (64 bytes)[0;37;1m
+     |  |      [0;1m@size         : Int32                                                          [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buckets      : Pointer(Hash::Entry(Signal, (Signal -> Void))?)                [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buckets_size : Int32                                                          [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@first        : Hash::Entry(Signal, (Signal -> Void))?                         [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@last         : Hash::Entry(Signal, (Signal -> Void))?                         [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@block        : ((Hash(Signal, (Signal -> Void)), Signal -> (Signal -> Void)))?[0;37m (16 bytes)[0;1m[0;37;1m
+     |  |      [0;37m@comp         : Hash::StandardComparator:Module                                [0;37m ( 4 bytes)[0;37m[0;37;1m
+     |  |
+     |  +- generic class Hash(Int32, Channel::Buffered(Process::Status?))[0;37m (64 bytes)[0;37;1m
+     |  |      [0;1m@size         : Int32                                                                                              [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buckets      : Pointer(Hash::Entry(Int32, Channel::Buffered(Process::Status?))?)                                  [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buckets_size : Int32                                                                                              [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@first        : Hash::Entry(Int32, Channel::Buffered(Process::Status?))?                                           [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@last         : Hash::Entry(Int32, Channel::Buffered(Process::Status?))?                                           [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@block        : ((Hash(Int32, Channel::Buffered(Process::Status?)), Int32 -> Channel::Buffered(Process::Status?)))?[0;37m (16 bytes)[0;1m[0;37;1m
+     |  |      [0;37m@comp         : Hash::StandardComparator:Module                                                                    [0;37m ( 4 bytes)[0;37m[0;37;1m
+     |  |
+     |  +- generic class Hash(Int32, Process::Status)[0;37m (64 bytes)[0;37;1m
+     |         [0;1m@size         : Int32                                                      [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |         [0;1m@buckets      : Pointer(Hash::Entry(Int32, Process::Status)?)              [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |         [0;1m@buckets_size : Int32                                                      [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |         [0;1m@first        : Hash::Entry(Int32, Process::Status)?                       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |         [0;1m@last         : Hash::Entry(Int32, Process::Status)?                       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |         [0;1m@block        : ((Hash(Int32, Process::Status), Int32 -> Process::Status))?[0;37m (16 bytes)[0;1m[0;37;1m
+     |         [0;37m@comp         : Hash::StandardComparator:Module                            [0;37m ( 4 bytes)[0;37m[0;37;1m
+     |
+     +- generic class Hash::Entry(K, V)
+     |  |
+     |  +- generic class Hash::Entry(Signal, (Signal -> Void))[0;37m (48 bytes)[0;37;1m
+     |  |      [0;1m@key   : Signal                                [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@value : (Signal -> Void)                      [0;37m (16 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@next  : Hash::Entry(Signal, (Signal -> Void))?[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@fore  : Hash::Entry(Signal, (Signal -> Void))?[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@back  : Hash::Entry(Signal, (Signal -> Void))?[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- generic class Hash::Entry(Int32, Process::Status)[0;37m (40 bytes)[0;37;1m
+     |         [0;1m@key   : Int32                               [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@value : Process::Status                     [0;37m (8 bytes)[0;1m[0;37;1m
+     |         [0;1m@next  : Hash::Entry(Int32, Process::Status)?[0;37m (8 bytes)[0;1m[0;37;1m
+     |         [0;1m@fore  : Hash::Entry(Int32, Process::Status)?[0;37m (8 bytes)[0;1m[0;37;1m
+     |         [0;1m@back  : Hash::Entry(Int32, Process::Status)?[0;37m (8 bytes)[0;1m[0;37;1m
+     |
+     +- class String::Builder[0;37m (80 bytes)[0;37;1m
+     |      [0;1m@encoding : IO::EncodingOptions?[0;37m (32 bytes)[0;1m[0;37;1m
+     |      [0;1m@encoder  : IO::Encoder?        [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@decoder  : IO::Decoder?        [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@bytesize : Int32               [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |      [0;1m@capacity : Int32               [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |      [0;1m@buffer   : Pointer(UInt8)      [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@finished : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |
+     +- class IO::FileDescriptor[0;37m (208 bytes)[0;37;1m
+     |      [0;1m@encoding         : IO::EncodingOptions?[0;37m (32 bytes)[0;1m[0;37;1m
+     |      [0;1m@encoder          : IO::Encoder?        [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@decoder          : IO::Decoder?        [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@in_buffer        : Pointer(UInt8)?     [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@in_buffer_rem    : Slice(UInt8)        [0;37m (16 bytes)[0;1m[0;37;1m
+     |      [0;1m@out_buffer       : Pointer(UInt8)?     [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@out_count        : Int32               [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |      [0;1m@sync             : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |      [0;1m@flush_on_newline : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |      [0;1m@readers          : Deque(Fiber)?       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@writers          : Deque(Fiber)?       [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |      [0;1m@edge_triggerable : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |      [0;1m@closed           : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |      [0;1m@fd               : Int32               [0;37m ( 4 bytes)[0;1m[0;37;1m
+     |      [0;1m@read_timeout     : Float64?            [0;37m (16 bytes)[0;1m[0;37;1m
+     |      [0;1m@write_timeout    : Float64?            [0;37m (16 bytes)[0;1m[0;37;1m
+     |      [0;1m@read_event       : Event::Event?       [0;37m (24 bytes)[0;1m[0;37;1m
+     |      [0;1m@write_event      : Event::Event?       [0;37m (24 bytes)[0;1m[0;37;1m
+     |      [0;1m@read_timed_out   : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |      [0;1m@write_timed_out  : Bool                [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |
+     +- class IO::Encoder[0;37m (56 bytes)[0;37;1m
+     |      [0;1m@encoding_options : IO::EncodingOptions[0;37m (24 bytes)[0;1m[0;37;1m
+     |      [0;1m@iconv            : Iconv              [0;37m (16 bytes)[0;1m[0;37;1m
+     |      [0;1m@closed           : Bool               [0;37m ( 0 bytes)[0;1m[0;37;1m
+     |
+     +- class Exception[0;37m (40 bytes)[0;37;1m
+     |  .   [0;1m@message   : String?    [0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  .   [0;1m@cause     : Exception+?[0;37m ( 8 bytes)[0;1m[0;37;1m
+     |  .   [0;1m@callstack : CallStack  [0;37m (16 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- class Errno[0;37m (48 bytes)[0;37;1m
+     |  |      [0;1m@errno : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- class IO::Error[0;37m (40 bytes)[0;37;1m
+     |  |
+     |  +- class IO::Timeout[0;37m (40 bytes)[0;37;1m
+     |  |
+     |  +- class DivisionByZero[0;37m (40 bytes)[0;37;1m
+     |  |
+     |  +- class ArgumentError[0;37m (40 bytes)[0;37;1m
+     |  |
+     |  +- class IndexError[0;37m (40 bytes)[0;37;1m
+     |
+     +- generic class Array(T)
+     |  |
+     |  +- generic class Array(Int32)[0;37m (24 bytes)[0;37;1m
+     |  |      [0;1m@size     : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@capacity : Int32         [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buffer   : Pointer(Int32)[0;37m (8 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- generic class Array(( -> Nil))[0;37m (24 bytes)[0;37;1m
+     |  |      [0;1m@size     : Int32             [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@capacity : Int32             [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buffer   : Pointer(( -> Nil))[0;37m (8 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- generic class Array((Int32 -> Void))[0;37m (24 bytes)[0;37;1m
+     |  |      [0;1m@size     : Int32                   [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@capacity : Int32                   [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buffer   : Pointer((Int32 -> Void))[0;37m (8 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- generic class Array(String)[0;37m (24 bytes)[0;37;1m
+     |  |      [0;1m@size     : Int32          [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@capacity : Int32          [0;37m (4 bytes)[0;1m[0;37;1m
+     |  |      [0;1m@buffer   : Pointer(String)[0;37m (8 bytes)[0;1m[0;37;1m
+     |  |
+     |  +- generic class Array(Pointer(Void))[0;37m (24 bytes)[0;37;1m
+     |         [0;1m@size     : Int32                 [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@capacity : Int32                 [0;37m (4 bytes)[0;1m[0;37;1m
+     |         [0;1m@buffer   : Pointer(Pointer(Void))[0;37m (8 bytes)[0;1m[0;37;1m
+     |
+     +- class String[0;37m (16 bytes)[0;37;1m
+            [0;1m@bytesize : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+            [0;1m@length   : Int32[0;37m (4 bytes)[0;1m[0;37;1m
+            [0;1m@c        : UInt8[0;37m (1 bytes)[0;1m[0;37;1m
+[0m

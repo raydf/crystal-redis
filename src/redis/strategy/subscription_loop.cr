@@ -2,7 +2,7 @@
 #
 # Strategy for sending commands while the client is subscribed to at least one channel.
 class Redis::Strategy::SubscriptionLoop < Redis::Strategy::Base
-  def initialize(connection, subscription)
+  def initialize(connection : Connection, subscription : Subscription)
     @connection = connection
     @subscription = subscription
     @entered_loop = false

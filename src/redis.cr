@@ -43,6 +43,8 @@ class Redis
   # :nodoc:
   alias Request = Array(RedisValue)
 
+  @strategy : Redis::Strategy::Base
+
   # Opens a Redis connection
   #
   # **Options**:
