@@ -2,6 +2,9 @@ class Redis
   # Definition of all Redis commands except pipelining and transactions.
   #
   module Commands
+    @strategy : Strategy::Base
+
+
     # Returns the given message.
     #
     # Example:
